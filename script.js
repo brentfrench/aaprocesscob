@@ -14,7 +14,7 @@ const forms = {
   WNCCP: {
     code: "WNCCP",
     title: "WCBT New or Changed Course Proposal Form",
-    file: "forms/WNCCP WCBT New or Changed Course Proposal Form.docx",
+    file: "WNCCP WCBT New or Changed Course Proposal Form.docx",
     purpose: "Use this for deleting, adding, or changing a course.",
     checklist: [
       "Identify the department, program, submitter, existing course, proposed course fields, and effective term.",
@@ -26,7 +26,7 @@ const forms = {
   APC: {
     code: "APC",
     title: "Academic Program Change Form",
-    file: "forms/APC Academic Program Change Form.docx",
+    file: "APC Academic Program Change Form.docx",
     purpose: "Use this for changes to an existing academic program.",
     checklist: [
       "Identify the department, submitter, existing program type, existing program name, effective date, and whether college approval is required.",
@@ -38,7 +38,7 @@ const forms = {
   PRNACMCP: {
     code: "PRNACMCP",
     title: "Preliminary Review for New Academic Minor or Certificate Program",
-    file: "forms/PRNACMCP Preliminary Review for New Academic Minor or Certificate Program Form.docx",
+    file: "PRNACMCP Preliminary Review for New Academic Minor or Certificate Program Form.docx",
     purpose: "Use this for a new minor, undergraduate certificate, or graduate certificate preliminary review.",
     checklist: [
       "Provide proposal date, college/school/department, proposer names, administrative contacts, title, and effective term.",
@@ -50,7 +50,7 @@ const forms = {
   PRNP: {
     code: "PRNP",
     title: "Preliminary Review for New Program",
-    file: "forms/PRNP Preliminary Review for New Program Form.docx",
+    file: "PRNP Preliminary Review for New Program Form.docx",
     purpose: "Use this for preliminary review of a new undergraduate or graduate degree program.",
     checklist: [
       "Provide proposal date, college/school/department, proposer names, administrative contacts, program title, degree award, and CIP code.",
@@ -62,7 +62,7 @@ const forms = {
   UNAP: {
     code: "UNAP",
     title: "UAA New Program Application",
-    file: "forms/UNAP UAA New Program Application Form.docx",
+    file: "UNAP UAA New Program Application Form.docx",
     purpose: "Use this when the new program workflow reaches the UAA Academic Affairs Committee application stage.",
     checklist: [
       "Provide college/department, submission date, initiation date, duration, proposed program name, delivery mode, credential type, credits, housing department, and contact information.",
@@ -73,7 +73,7 @@ const forms = {
   WNCPP: {
     code: "WNCPP",
     title: "WCBT New or Changed Program Proposal Form",
-    file: "forms/WNCPP New or Changed Program Form.docx",
+    file: "WNCPP New or Changed Program Form.docx",
     purpose: "Use this for deleting, adding, or changing a Welch College program after the workflow reaches the WCBT program proposal stage.",
     checklist: [
       "Identify the department, submitter, existing program type, existing program name, and effective date of change.",
