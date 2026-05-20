@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AA Process Coach</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Activity picker">
+        <div class="brand">
+          <div class="brand-mark" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div>
+            <h1>AA Process Coach</h1>
+            <p>Course and program change routing</p>
+          </div>
+        </div>
+
+        <div class="segmented" role="tablist" aria-label="Activity type">
+          <button class="is-active" type="button" data-filter="All">All</button>
+          <button type="button" data-filter="Course">Course</button>
+          <button type="button" data-filter="Program">Program</button>
+        </div>
+
+        <div class="control-group">
+          <label for="searchInput">Find an activity</label>
+          <input id="searchInput" type="search" placeholder="Search title, credits, modality..." />
+        </div>
+
+        <div class="activity-count" id="activityCount"></div>
+        <nav class="activity-list" id="activityList" aria-label="Workflow activities"></nav>
+      </aside>
+
+      <main class="coach">
+        <section class="chat-panel" aria-label="Coach chat">
+          <div class="chat-header">
+            <div>
+              <p class="eyebrow">Academic Affairs routing assistant</p>
+              <h2 id="chatTitle">Select a change to start</h2>
+            </div>
+            <button id="resetButton" class="icon-button" type="button" aria-label="Reset conversation" title="Reset conversation">
+              <span aria-hidden="true">R</span>
+            </button>
+          </div>
+
+          <div id="chatLog" class="chat-log" aria-live="polite"></div>
+
+          <div class="quick-actions" id="quickActions" aria-label="Suggested activities"></div>
+        </section>
+
+        <section class="details-panel" aria-label="Selected workflow details">
+          <div class="empty-state" id="emptyState">
+            <div class="empty-visual" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <h2>Choose the activity that best matches the change.</h2>
+            <p>The coach will return the form, routing steps, timing notes, and cautions from the workflow spreadsheet.</p>
+          </div>
+
+          <div class="workflow-detail" id="workflowDetail" hidden></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
